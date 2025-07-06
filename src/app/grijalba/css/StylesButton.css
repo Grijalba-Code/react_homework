@@ -1,5 +1,5 @@
 .buttonR {
-  background-color: rgb(39, 38, 38);
+  background-color: rgb(22, 0, 100);
   color: rgb(199, 195, 195);
   width: 237px;
   border: none;
@@ -11,6 +11,7 @@
   transition: all 0.1s ease;
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
   margin-top: 12px;
+  margin-bottom: 12px;
 }
 
 .buttonR:hover {
@@ -31,7 +32,7 @@
 }
 
 .home {
-  background-color: rgb(48, 11, 11);
+  background-color: rgb(107, 10, 10);
   color: rgb(199, 195, 195);
   width: 237px;
   border: none;
@@ -43,4 +44,24 @@
   transition: all 0.1s ease;
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
   margin-top: 12px;
+  margin-bottom: 12px;
+}
+.home:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+}
+
+.card {
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  transition: all 0.2s ease;
+}
+.card:hover {
+  transform: translateY(2px);
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+}
+
+.containerCard {
+  padding: 20px;
+  border: solid 1px rgba(255, 255, 255, 0.1);
+  border-radius: 12px;
 }

@@ -9,6 +9,7 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "bootstrap": "^5.3.3",
     "cowsay": "^1.6.0",
     "cowsay-browser": "^1.1.8",
     "next": "15.3.4",
