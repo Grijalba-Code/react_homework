@@ -1,4 +1,5 @@
 import AddCarrito from "./Add";
+import "../css/StylesButton.css";
 
 function Product(props) {
   return (
@@ -19,8 +20,9 @@ function Product(props) {
             <strong>Precio:</strong> {props.precio}
           </li>
         </ul>
-        <AddCarrito />
       </div>
+      <button className="btn btn-primary">Comprar</button>
+      <AddCarrito />
     </div>
   );
 }

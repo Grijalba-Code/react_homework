@@ -1,12 +1,16 @@
 "use client";
 
+import "../css/StylesButton.css";
+
 function addSuccess() {
   alert("Producto agregado al carrito");
 }
 
 function AddCarrito() {
   return (
-    <button className="btn btn-success" onClick={addSuccess}>
+    // boton para agregar al carrito
+
+    <button className="btn-add" onClick={addSuccess}>
       + 🛒
     </button>
   );
