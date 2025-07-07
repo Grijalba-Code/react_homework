@@ -70,10 +70,9 @@
   border-radius: 30px;
   border: none;
   padding: 5px;
-  align-self: flex-end;
+  align-self: center;
   width: 23%;
-  margin-bottom: 7px;
-  margin-right: 4px;
+  margin: 6px;
   transition: background 0.3s ease, color 0.3s ease;
   font-weight: bold;
   color: rgb(6, 94, 13);
