@@ -2,14 +2,11 @@
 
 import "../css/StylesButton.css";
 
-function addSuccess() {
-  alert("Producto agregado al carrito");
-}
-
 function AddCarrito() {
+  function addSuccess() {
+    alert("Producto agregado al carrito");
+  }
   return (
-    // boton para agregar al carrito
-
     <button className="btn-add" onClick={addSuccess}>
       + 🛒
     </button>

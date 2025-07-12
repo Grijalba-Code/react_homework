@@ -1,18 +1,30 @@
-import AddCarrito from "./Add";
 import "../css/StylesButton.css";
-import Product from "./Product";
+import AddCarrito from "./Add";
 
-export default function ProductCard() {
+export default function ProductCard(props) {
   return (
-    <div className="containerCard">
-      <h3>Ejemplo de Card</h3>
-      <Product
-        title="LENOVO"
-        serial="123456"
-        modelo="ThinkPad"
-        categoria="Laptop"
-        precio="1'000.000 $"
-      />
+    <div className="container-Card">
+      <div className="card">
+        <div className="card-body">
+          <h3 className="card-title">{props.marca}</h3>
+          <ul className="list-group">
+            <li className="list-group-item">
+              <strong>Serial:</strong> {props.serial}
+            </li>
+            <li className="list-group-item">
+              <strong>Modelo:</strong> {props.modelo}
+            </li>
+            <li className="list-group-item">
+              <strong>Categoria:</strong> {props.categoria}
+            </li>
+            <li className="list-group-item">
+              <strong>Precio:</strong> {props.precio}
+            </li>
+          </ul>
+        </div>
+        <button className="btn-comprar">Comprar</button>
+        <AddCarrito />
+      </div>
     </div>
   );
 }
